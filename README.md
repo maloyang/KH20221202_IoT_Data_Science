@@ -21,37 +21,50 @@
 ## W02
 
 - 建置本地端的開發環境
+    - anaconda
+    - vscode
 - 基本語法練習2
 - 資料如何收集
 - 資料庫
+- IoT基礎介紹 (1)產業IoT協定概觀 (2)Python與IoT設備的通訊方式
+- IoT基礎與應用 (1)Python收集IIoT產業設備通訊實做 (2)IoT資料收集分析
 
 ----
 ## W03
 
-- csv資訊讀取應用
-- 資料視覺化: matplotlib
-
-- 資料庫應用(以MySQL、MariaDB為例)
+- csv & 資料庫: 電力資料應用
 - 實作：收集資料到資料庫
+- 資料視覺化: matplotlib
+- pandas
 
 ----
 ## W04
 
-- IoT基礎介紹 (1)產業IoT協定概觀 (2)Python與IoT設備的通訊方式
-- IoT基礎與應用 (1)Python收集IIoT產業設備通訊實做 (2)IoT資料收集分析，思考何謂必要性的資料
+- 整理分析資料後的分享: 網頁技術
+- Flask基礎
+- 雲端Server應用
+- 雲端地圖應用
+- 雲端資料庫應用
+- line警報的應用
 
 ----
 ## W05
 
-- Pandas資料科學工具介紹、練習
-- 資料的分享：網頁API實作
+- restful API介紹
+- GET: 基本型式、加入參數
+- POST: 寫入資料的方法
+- 變流器電力資訊分析
+- google firebase
 
 ----
 ## W06
 
-- 網頁前端設計介紹
-- 網頁前後端整合應用：Python restful API設計網頁前後端整合應用 
+- 報表資料整理為excel
+- 雲端網頁報表應用
     - (1)Python網頁後端設計 
     - (2)restful API設計 
     - (3)前後端分離設計手法 
     - (4)PWA: android, iOS APP的設計開法速成
+- 定時報表產出應用
+- 綠能產業資料收集
+- 農業自動化資料收集
