@@ -53,6 +53,8 @@
 - restful API介紹
 - GET: 基本型式、加入參數
 - POST: 寫入資料的方法
+- 排程：定時通知
+- 排程：定時收集資料
 - 變流器電力資訊分析
 - google firebase
 
