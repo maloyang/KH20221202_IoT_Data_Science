@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1>Hello Flask</h1> <h2>12345678</h2>"
+    return "<h1>Hello Flask</h1>"
 
 @app.route("/error")
 def error():

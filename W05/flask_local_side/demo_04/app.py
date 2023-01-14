@@ -23,5 +23,9 @@ def get_user_id(uid):
 def get_user_path(path):
     return "<h1>Path: %s</h1>" %(path)
 
+@app.route("/error2")
+def error2():
+    return 10/0
+
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
