@@ -1,6 +1,7 @@
 # app.py
 
 from flask import Flask, render_template, jsonify, request
+from firebase import firebase
 
 app = Flask(__name__)
 
@@ -28,6 +29,22 @@ def api_mydata_post():
     # insert data
 
     result = {'result': 'OK'}
+    return jsonify(result)
+
+@app.route("/api/firebase/log2", methods=['GET'])
+def api_firebase_log2_get():
+    # do something
+    tag_name = '/tag_malo'
+    my_firebase = firebase.FirebaseApplication('https://fire-test-c46d1.firebaseio.com', None)
+    my_data = my_firebase.get(tag_name, 'log2')
+    result = {'result':'OK', 'data':my_data}
+    return jsonify(result)
+    
+
+@app.route("/api/firebase/log2", methods=['POST'])
+def api_firebase_log2_post():
+    # do something
+    result = {'result':'OK'}
     return jsonify(result)
 
 if __name__ == "__main__":
