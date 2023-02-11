@@ -176,7 +176,7 @@ def api_powermeter_report():
     chart.title = '趨勢圖'
     chart.x_axis.tilte = '時間'
     chart.y_axis.title = '累計電量'
-    xtitle = Reference(ws, min_col=1, min_row=5, max_row=76)
+    xtitle = Reference(ws, min_col=1, min_row=5, max_row=5+n-1)
     chart.set_categories(xtitle)
     ws.add_chart(chart, 'K4')
 
